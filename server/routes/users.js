@@ -7,7 +7,7 @@ router.post('/signup', signup)
 
 router.post('/signin', signin)
 
-router.post('/verificate/:id', verificate)
+router.get('/verificate/:id', verificate)
 
 router.get('/:id', getUserDetails)
 

@@ -62,10 +62,10 @@ const verificate = async (req, res) => {
         const updatedUser = await User.updateOne({_id: id}, {isVerificated: true})
 
         //return feedback
-        return res.status(200).send('User verificated suucessfuly ! sign in now.')
+        return res.status(200).redirect("http://localhost:3000/")
     }
     catch(err) {
-        return res.status(500).send(err)
+        return res.status(500).send("Error while activating your account. please try to sign in again.")
     }
     
 }

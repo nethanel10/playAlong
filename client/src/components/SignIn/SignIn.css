@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.video{
+    display: flex;
+    background-color: black;
+    width:70vw;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+
+}
+.signincontainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #6100FF;
+    width: 40vw;
+    height: 35vh;
+    /* justify-content: space-evenly; */
+    text-align: center;
+    align-items: center;
+    opacity: 85%;
+
+}
+.left{
+    margin-top: 1rem;
+}
+.Container{
+    display: flex;
+}
+.right{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    
+
+}
+
+.felds{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    /* width: 28vw; */
+}
+#email{
+    width: 30vw;
+    height: 5vh;
+    background-color: transparent;
+    border: 1px solid #E7E7E7;
+
+}
+#password{
+    width: 30vw;
+    height: 5vh;
+    background-color: transparent;
+    border: 1px solid #E7E7E7;
+
+}
+
+
+.signin-header{
+    color:white;
+}
+button{
+    color: #5236FF;
+    width: 35vw;
+    height: 5vh;
+border-radius: 5%;
+margin-top: 1rem;
+}
+.ad{
+    margin-left:1rem;
+    margin-top: 1rem;
+}
+#text-area-1{
+    width: 26vw;
+    height: 20vh;
+
+}
+#text-area-2{
+    width: 26vw;
+    height: 20vh;
+
+
+}
+.create-account{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.activeted-status{
+    color: #00FF19;
+
+}
